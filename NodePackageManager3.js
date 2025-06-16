@@ -44,9 +44,8 @@
 //   "license": "ISC"
 // }
 
-
 // //after this whenever you will install any package
 // -- using npm install express
 //   (it will add the dependency in package.json)
 
-// --for the first time it will create node_modules folder and packag-lock.json  
+// --for the first time it will create node_modules folder and packag-lock.json
