@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemant-Pawar-SDE/NodeJS.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Hemant Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemant-Pawar-SDE/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Hemant-Pawar-SDE/NodeJS#readme"
+}
