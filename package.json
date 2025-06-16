@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Hemant-Pawar-SDE/NodeJS/issues"
   },
-  "homepage": "https://github.com/Hemant-Pawar-SDE/NodeJS#readme"
+  "homepage": "https://github.com/Hemant-Pawar-SDE/NodeJS#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
