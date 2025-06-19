@@ -1,0 +1,41 @@
+--npm install mongoose
+--create mongodb account
+-- create new project
+-- create a cluster.
+--select M0(Free).
+--add cluster name of the choice 
+--click> create deployment
+--take username and the password.
+  it will be used to connect the mongodb with the application.
+  username--hp8668648230
+  password--Hemant6558
+--click> create database user
+--click> choose connection method--CLOSE
+--go to nextwork access and "allow from anywhere"
+
+
+--click>cluster>
+--click>connect
+--click> mongodb for VScode
+--get the URL--
+mongodb+srv://hp8668648230:<db_password>@hemantcluster.wzzmkgc.mongodb.net/
+--replace it with your password
+mongodb+srv://hp8668648230:Hemant6558@hemantcluster.wzzmkgc.mongodb.net/
+--copy this URL and paste in mongoose.connect()method
+
+--creating connection to the cluster--
+const mongoose= require('mongoose');
+
+mongoose.connect("mongodb+srv://hp8668648230:Hemant6558@hemantcluster.wzzmkgc.mongodb.net/").then(()=>{
+    console.log("database connection successful");
+}).catch((err)=>{
+    console.log(err);
+})
+
+--creating schema--
+🔄 Mapping Relational vs MongoDB:
+Database-Database
+Table-Collection
+Row-Document (JSON-like)
+Column-Field (key in document)
+Primary Key- _id field (default ID)
